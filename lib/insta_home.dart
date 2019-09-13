@@ -35,6 +35,9 @@ child: BottomAppBar(
         ),
         IconButton(
           icon: Icon(Icons.search),
+        ),
+        IconButton(
+          icon: Icon(Icons.add_a_photo),
         )
       ],
     ),
