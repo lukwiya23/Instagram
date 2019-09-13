@@ -30,7 +30,9 @@ child: BottomAppBar(
   child: BottomAppBar(
     child: Row(
       children: <Widget>[
-        IconButton
+        IconButton(
+          icon: Icon(Icons.search),
+        )
       ],
     ),
   ),
