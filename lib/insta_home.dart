@@ -27,8 +27,9 @@ class InstaHome extends StatelessWidget {
 color: Colors.white,
 height: 50.0,
 child: BottomAppBar(
-  child: BottomAppBar(
+  
     child: Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: <Widget>[
         IconButton(
           icon: Icon(Icons.home),
@@ -49,7 +50,6 @@ child: BottomAppBar(
       
       ],
     ),
-  ),
 ),
       ),
     );
