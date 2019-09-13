@@ -23,6 +23,9 @@ class InstaHome extends StatelessWidget {
     return Scaffold(
       appBar:topBar,
       body: Container(),
+      bottomNavigationBar: Container(
+        
+      ),
     );
   }
 }
