@@ -32,16 +32,21 @@ child: BottomAppBar(
       children: <Widget>[
         IconButton(
           icon: Icon(Icons.home),
+          onPressed: null,
         ),
         IconButton(
           icon: Icon(Icons.search),
+          onPressed: null,
         ),
         IconButton(
           icon: Icon(Icons.add_a_photo),
+          onPressed: null,
         ),
         IconButton(
           icon: Icon(Icons.favorite),
+          onPressed: null,
         ),
+      
       ],
     ),
   ),
