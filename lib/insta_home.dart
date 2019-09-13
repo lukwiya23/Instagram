@@ -31,6 +31,9 @@ child: BottomAppBar(
     child: Row(
       children: <Widget>[
         IconButton(
+          icon: Icon(Icons.home),
+        ),
+        IconButton(
           icon: Icon(Icons.search),
         )
       ],
