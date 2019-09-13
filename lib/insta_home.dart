@@ -6,7 +6,7 @@ class InstaHome extends StatelessWidget {
     backgroundColor: Color(0xfff8faf8),
     centerTitle: true,
     elevation: 1.0,
-    leading: Icon(Icons.camera_alt),
+    leading: InkWell(child: Icon(Icons.camera_alt),onTap: (){},),
     title: SizedBox(
       height: 35.0,
       child: Image.asset("assets/images/insta_logo.png"),
