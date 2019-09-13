@@ -47,6 +47,10 @@ child: BottomAppBar(
           icon: Icon(Icons.favorite),
           onPressed: null,
         ),
+        IconButton(
+          icon: Icon(Icons.account_box),
+          onPressed: null,
+        ),
       
       ],
     ),
