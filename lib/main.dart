@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'insta_home.dart';
+
 void main()=> runApp(MyApp());
 
 
