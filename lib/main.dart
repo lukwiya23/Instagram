@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: Colors.black,
-        primaryIconTheme: IconThemeData(color: Colors.black)
+        primaryIconTheme: IconThemeData(color: Colors.black),
+        primaryTextTheme: TextTheme(title: TextStyle(color: Colors.black))
       ),
       home: InstaHome(),
     );
