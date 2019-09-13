@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Instagram clone',
       debugShowCheckedModeBanner: false,
+      home: InstaHome(),
     );
   }
 }
