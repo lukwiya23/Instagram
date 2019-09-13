@@ -28,7 +28,11 @@ color: Colors.white,
 height: 50.0,
 child: BottomAppBar(
   child: BottomAppBar(
-    
+    child: Row(
+      children: <Widget>[
+        IconButton
+      ],
+    ),
   ),
 ),
       ),
