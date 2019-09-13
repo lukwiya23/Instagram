@@ -27,7 +27,9 @@ class InstaHome extends StatelessWidget {
 color: Colors.white,
 height: 50.0,
 child: BottomAppBar(
-  
+  child: BottomAppBar(
+    
+  ),
 ),
       ),
     );
