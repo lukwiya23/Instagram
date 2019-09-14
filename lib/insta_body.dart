@@ -6,7 +6,9 @@ class InstaBody extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.start,
       children: <Widget>[
-
+        Flexible(
+          child: InstaStories(),
+        )
       ],
     );
   }
