@@ -7,7 +7,10 @@ class InstaPosts extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView.builder(
       itemCount: 6,
-      itemBuilder: (context, index)=>index=0?SizedBox(child: InstaStories(),),
+      itemBuilder: (context, index)=>index==0?SizedBox(child: InstaStories(),
+      height: 150.0,
+      )
+      : Column()
       
     );
   }
