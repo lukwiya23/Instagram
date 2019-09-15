@@ -75,7 +75,11 @@ class InstaPosts extends StatelessWidget {
                   height: 40.0,
                   width: 40.0,
                   decoration: BoxDecoration(
-                    
+                    shape: BoxShape.circle,
+                    image: DecorationImage(
+                      image: NetworkImage(""),
+                      fit: BoxFit.fill
+                    )
                   ),
                 )
               ],
