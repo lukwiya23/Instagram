@@ -15,6 +15,12 @@ class InstaStories extends StatelessWidget {
     ],
   );
 
+  final stories = Expanded(
+    child: ListView.builder(
+      scrollDirection: Axis.horizontal,
+    ),
+  );
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -24,7 +30,7 @@ class InstaStories extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         children: <Widget>[
           topText,
-          
+
         ],
       ),
     );
