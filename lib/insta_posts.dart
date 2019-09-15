@@ -54,7 +54,11 @@ class InstaPosts extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
-                    Icon(FontAwesomeIcons.heart)
+                    Icon(FontAwesomeIcons.heart),
+                    SizedBox(width: 16.0,),
+                    Icon(FontAwesomeIcons.comment),
+                    SizedBox(width: 16.0,),
+                    Icon(FontAwesomeIcons.share)
                   ],
                 )
               ],
