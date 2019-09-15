@@ -23,7 +23,8 @@ class InstaStories extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         mainAxisAlignment: MainAxisAlignment.start,
         children: <Widget>[
-          topText()
+          topText,
+          
         ],
       ),
     );
