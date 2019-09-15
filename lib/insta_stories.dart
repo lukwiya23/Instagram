@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 
 class InstaStories extends StatelessWidget {
+
+  final topText = Row(
+    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+  )
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -8,6 +13,9 @@ class InstaStories extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         mainAxisAlignment: MainAxisAlignment.start,
+        children: <Widget>[
+          topText()
+        ],
       ),
     );
   }
