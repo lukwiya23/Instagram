@@ -4,7 +4,16 @@ class InstaStories extends StatelessWidget {
 
   final topText = Row(
     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-  )
+    children: <Widget>[
+      Text("Stories",style: TextStyle(fontWeight: FontWeight.bold),),
+      Row(
+        children: <Widget>[
+          Icon(Icons.play_arrow),
+          Text("Watch All", style: TextStyle(fontWeight: FontWeight.bold),)
+        ],
+      )
+    ],
+  );
 
   @override
   Widget build(BuildContext context) {
