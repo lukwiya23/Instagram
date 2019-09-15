@@ -83,7 +83,10 @@ class InstaPosts extends StatelessWidget {
                   ),
                   
                 ),
-                SizedBox(width: 10.0,)
+                SizedBox(width: 10.0,),
+                Expanded(
+                  child: TextField(),
+                )
               ],
             )
           )
