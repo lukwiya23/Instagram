@@ -1,5 +1,6 @@
 import 'package:first_app/insta_stories.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 
 class InstaPosts extends StatelessWidget {
@@ -49,6 +50,14 @@ class InstaPosts extends StatelessWidget {
             padding: const EdgeInsets.all(16.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: <Widget>[
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
+                    Icon(FontAwesomeIcons.heart)
+                  ],
+                )
+              ],
             ),
           )
         ],
