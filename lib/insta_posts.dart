@@ -11,7 +11,11 @@ class InstaPosts extends StatelessWidget {
       itemBuilder: (context, index)=>index==0?SizedBox(child: InstaStories(),
       height: deviceSize.height * 0.15,
       )
-      : Column()
+      : Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+      )
       
     );
   }
