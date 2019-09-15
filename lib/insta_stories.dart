@@ -42,6 +42,7 @@ class InstaStories extends StatelessWidget {
               child: Icon(Icons.add, size: 14.0, color: Colors.white,),
             ),
           )
+          :Container()
         ],
       ),
     ),
