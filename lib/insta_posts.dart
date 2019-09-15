@@ -71,7 +71,13 @@ class InstaPosts extends StatelessWidget {
             child : Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: <Widget>[
-                
+                Container(
+                  height: 40.0,
+                  width: 40.0,
+                  decoration: BoxDecoration(
+                    
+                  ),
+                )
               ],
             )
           )
