@@ -39,6 +39,7 @@ class InstaStories extends StatelessWidget {
             child: CircleAvatar(
               backgroundColor: Colors.blueAccent,
               radius: 10.0,
+              child: Icon(Icons.add, size: 14.0,),
             ),
           )
         ],
