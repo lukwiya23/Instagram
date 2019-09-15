@@ -18,6 +18,24 @@ class InstaStories extends StatelessWidget {
   final stories = Expanded(
     child: ListView.builder(
       scrollDirection: Axis.horizontal,
+      itemCount: 6,
+      itemBuilder: (context, index)=>Stack(
+        alignment: Alignment.bottomRight,
+        children: <Widget>[
+          Container(
+            width: 60,
+            height: 60,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              image: DecorationImage(
+                image: NetworkImage("")
+              ),
+      
+            ),
+            margin: const EdgeInsets.symmetric(horizontal: 8.0),
+          )
+        ],
+      ),
     ),
   );
 
