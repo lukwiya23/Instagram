@@ -65,6 +65,12 @@ class InstaPosts extends StatelessWidget {
                 )
               ],
             ),
+          ),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16.0,16.0,0.0,8.0),
+            child : Row(
+              
+            )
           )
         ],
       )
