@@ -30,7 +30,12 @@ class InstaPosts extends StatelessWidget {
                       image: NetworkImage("")
                     )
                   ),
-                )
+                  
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Text("Bonnie", style: TextStyle(fontWeight: FontWeight.bold),)
               ],
             ),
           )
