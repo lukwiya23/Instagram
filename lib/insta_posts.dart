@@ -87,7 +87,8 @@ class InstaPosts extends StatelessWidget {
                 Expanded(
                   child: TextField(
                     decoration: InputDecoration(
-                      
+                      border: InputBorder.none,
+                      hintText: "Add a comment.."
                     ),
                   ),
                 )
