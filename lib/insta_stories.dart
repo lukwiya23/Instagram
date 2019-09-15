@@ -33,6 +33,9 @@ class InstaStories extends StatelessWidget {
       
             ),
             margin: const EdgeInsets.symmetric(horizontal: 8.0),
+          ),
+          index ==0 ? Positioned(
+            right: 10.0,
           )
         ],
       ),
