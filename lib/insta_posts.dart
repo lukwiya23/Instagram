@@ -58,7 +58,9 @@ class InstaPosts extends StatelessWidget {
                     SizedBox(width: 16.0,),
                     Icon(FontAwesomeIcons.comment),
                     SizedBox(width: 16.0,),
-                    Icon(FontAwesomeIcons.share)
+                    Icon(FontAwesomeIcons.paperPlane),
+                    SizedBox(width: 16.0,),
+                    Icon(FontAwesomeIcons.bookmark)
                   ],
                 )
               ],
