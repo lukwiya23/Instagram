@@ -36,6 +36,10 @@ class InstaStories extends StatelessWidget {
           ),
           index ==0 ? Positioned(
             right: 10.0,
+            child: CircleAvatar(
+              backgroundColor: Colors.blueAccent,
+              radius: 10.0,
+            ),
           )
         ],
       ),
