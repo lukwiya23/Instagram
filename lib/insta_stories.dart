@@ -16,34 +16,37 @@ class InstaStories extends StatelessWidget {
   );
 
   final stories = Expanded(
-    child: ListView.builder(
-      scrollDirection: Axis.horizontal,
-      itemCount: 6,
-      itemBuilder: (context, index)=>Stack(
-        alignment: Alignment.bottomRight,
-        children: <Widget>[
-          Container(
-            width: 60,
-            height: 60,
-            decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              image: DecorationImage(
-                image: NetworkImage("")
+    child: Padding(
+      padding: const EdgeInsets.only(top:8.0),
+      child: ListView.builder(
+        scrollDirection: Axis.horizontal,
+        itemCount: 6,
+        itemBuilder: (context, index)=>Stack(
+          alignment: Alignment.bottomRight,
+          children: <Widget>[
+            Container(
+              width: 60,
+              height: 60,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                image: DecorationImage(
+                  image: NetworkImage("")
+                ),
+        
               ),
-      
+              margin: const EdgeInsets.symmetric(horizontal: 8.0),
             ),
-            margin: const EdgeInsets.symmetric(horizontal: 8.0),
-          ),
-          index ==0 ? Positioned(
-            right: 10.0,
-            child: CircleAvatar(
-              backgroundColor: Colors.blueAccent,
-              radius: 10.0,
-              child: Icon(Icons.add, size: 14.0, color: Colors.white,),
-            ),
-          )
-          :Container()
-        ],
+            index ==0 ? Positioned(
+              right: 10.0,
+              child: CircleAvatar(
+                backgroundColor: Colors.blueAccent,
+                radius: 10.0,
+                child: Icon(Icons.add, size: 14.0, color: Colors.white,),
+              ),
+            )
+            :Container()
+          ],
+        ),
       ),
     ),
   );
