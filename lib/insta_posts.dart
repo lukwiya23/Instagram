@@ -15,6 +15,11 @@ class InstaPosts extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: <Widget>[
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16.0, 16.0, 8.0, 16.0),
+          )
+        ],
       )
       
     );
