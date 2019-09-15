@@ -38,6 +38,12 @@ class InstaPosts extends StatelessWidget {
                 Text("Bonnie", style: TextStyle(fontWeight: FontWeight.bold),)
               ],
             ),
+            
+          ),
+          Flexible(
+            fit: FlexFit.loose,
+            child: Image.network(""),
+          
           )
         ],
       )
