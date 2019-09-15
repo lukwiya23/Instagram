@@ -78,10 +78,12 @@ class InstaPosts extends StatelessWidget {
                     shape: BoxShape.circle,
                     image: DecorationImage(
                       image: NetworkImage(""),
-                      fit: BoxFit.fill
+                      fit: BoxFit.fill,
                     )
                   ),
-                )
+                  
+                ),
+                SizedBox(width: 10.0,)
               ],
             )
           )
