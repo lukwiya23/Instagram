@@ -42,7 +42,7 @@ class InstaPosts extends StatelessWidget {
           ),
           Flexible(
             fit: FlexFit.loose,
-            child: Image.network(""),
+            child: Image.network("", fit: BoxFit.cover,),
           
           )
         ],
