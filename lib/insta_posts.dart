@@ -94,6 +94,10 @@ class InstaPosts extends StatelessWidget {
                 )
               ],
             )
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16.0),
+            child: Text("23 hours ago", style: TextStyle(color: Colors.grey),),
           )
         ],
       )
