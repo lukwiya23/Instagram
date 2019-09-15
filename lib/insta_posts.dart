@@ -18,6 +18,18 @@ class InstaPosts extends StatelessWidget {
         children: <Widget>[
           Padding(
             padding: const EdgeInsets.fromLTRB(16.0, 16.0, 8.0, 16.0),
+            child: Row(
+              children: <Widget>[
+                Container(
+                  height: 40.0,
+                  width: 40.0,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    image: 
+                  ),
+                )
+              ],
+            ),
           )
         ],
       )
