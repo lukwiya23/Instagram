@@ -1,4 +1,4 @@
-# first_app
+# Instagram remastered
 
 A new Flutter project.
 
